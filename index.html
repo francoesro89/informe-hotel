@@ -1,264 +1,266 @@
-```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Informe Meta Ads - Hotel</title>
+<title>Reporte Meta Ads - Hotel</title>
+<style>
+body{margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;background:#F0F2F5;color:#1C1E21}
+.header{background:linear-gradient(135deg,#1877F2 0%,#0D5DBD 100%);padding:40px 20px;text-align:center;color:white}
+.header h1{margin:0;font-size:32px;font-weight:700}
+.header p{margin:10px 0 0;font-size:16px;opacity:0.95}
+.container{max-width:1200px;margin:0 auto;padding:20px}
+.semaforo{background:white;border-radius:16px;padding:30px;margin:20px 0;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.1)}
+.semaforo-badge{display:inline-block;background:#42B72A;color:white;padding:12px 40px;border-radius:50px;font-size:24px;font-weight:700}
+.grid-kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin:20px 0}
+.kpi-card{background:white;border-radius:12px;padding:25px;box-shadow:0 2px 8px rgba(0,0,0,0.1);position:relative;overflow:hidden}
+.kpi-card::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:#1877F2}
+.kpi-label{font-size:14px;color:#65676B;margin-bottom:8px;font-weight:500}
+.kpi-value{font-size:32px;font-weight:700;color:#1C1E21;margin-bottom:5px}
+.kpi-subtitle{font-size:13px;color:#65676B}
+.section{background:white;border-radius:12px;padding:30px;margin:20px 0;box-shadow:0 2px 8px rgba(0,0,0,0.1)}
+.section-title{font-size:20px;font-weight:700;margin:0 0 20px;color:#1C1E21;border-left:4px solid #1877F2;padding-left:12px}
+table{width:100%;border-collapse:collapse;margin:15px 0}
+th{background:#F0F2F5;padding:12px;text-align:left;font-weight:600;font-size:14px;color:#1C1E21}
+td{padding:12px;border-bottom:1px solid #E4E6EB;font-size:14px}
+.benchmark{color:#42B72A;font-weight:600}
+.recomendacion{background:#F0F2F5;border-left:4px solid #FF6B35;padding:15px;margin:10px 0;border-radius:4px}
+.prioridad{display:inline-block;background:#FF6B35;color:white;padding:4px 10px;border-radius:4px;font-size:12px;font-weight:600;margin-bottom:8px}
+.accion{background:#E7F3FF;border-left:4px solid #1877F2;padding:15px;margin:10px 0;border-radius:4px}
+.plazo{color:#1877F2;font-weight:600}
+.footer{background:#1C1E21;color:white;padding:30px;text-align:center;margin-top:40px}
+.footer-logo{font-size:24px;font-weight:700;color:#1877F2;margin-bottom:10px}
+</style>
 </head>
-<body style="margin:0;padding:0;font-family:system-ui,-apple-system,sans-serif;background:#F0F2F5;color:#1C1E21;">
+<body>
 
-<div style="background:linear-gradient(135deg,#1877F2 0%,#0D47A1 100%);padding:32px 24px;text-align:center;">
-<div style="max-width:1200px;margin:0 auto;">
-<svg width="140" height="36" viewBox="0 0 140 36" style="margin-bottom:12px;">
-<text x="0" y="28" fill="#FFFFFF" font-size="32" font-weight="700" letter-spacing="-1">BIGGOW</text>
+<div class="header">
+<h1>REPORTE EJECUTIVO META ADS</h1>
+<p>Hotel | Periodo: 1 Enero - 14 Mayo 2026 | 133 dias</p>
+</div>
+
+<div class="container">
+
+<div class="semaforo">
+<div class="semaforo-badge">CAMPAÑA EXITOSA</div>
+<p style="margin-top:15px;font-size:16px;color:#65676B">Costo por conversacion 37% por debajo del benchmark del sector hotelero. Alcance solido con frecuencia optima. Oportunidad de escalar.</p>
+</div>
+
+<div class="grid-kpi">
+<div class="kpi-card">
+<div class="kpi-label">ALCANCE TOTAL</div>
+<div class="kpi-value">1.427.893</div>
+<div class="kpi-subtitle">Personas unicas impactadas</div>
+<svg width="100%" height="8" style="margin-top:12px">
+<rect width="100%" height="8" fill="#E4E6EB" rx="4"/>
+<rect width="85%" height="8" fill="#1877F2" rx="4"/>
 </svg>
-<h1 style="margin:8px 0;color:#FFFFFF;font-size:28px;font-weight:700;letter-spacing:-0.5px;">Informe Ejecutivo Meta Ads</h1>
-<p style="margin:4px 0;color:#E3F2FD;font-size:16px;font-weight:500;">Hotel | 01 Ene - 14 May 2026 | 133 días</p>
 </div>
-</div>
-
-<div style="max-width:1200px;margin:24px auto;padding:0 24px;">
-
-<div style="background:#42B72A;border-radius:12px;padding:24px;margin-bottom:24px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
-<div style="display:flex;align-items:center;gap:16px;">
-<div style="background:#FFFFFF;border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
-<svg width="32" height="32" viewBox="0 0 32 32">
-<path d="M16 2L19 12L29 12L21 18L24 28L16 22L8 28L11 18L3 12L13 12Z" fill="#42B72A"/>
+<div class="kpi-card">
+<div class="kpi-label">INVERSION TOTAL</div>
+<div class="kpi-value">$7.969.838</div>
+<div class="kpi-subtitle">$59.924 diarios promedio</div>
+<svg width="100%" height="8" style="margin-top:12px">
+<rect width="100%" height="8" fill="#E4E6EB" rx="4"/>
+<rect width="78%" height="8" fill="#42B72A" rx="4"/>
 </svg>
 </div>
-<div style="flex:1;">
-<h2 style="margin:0;color:#FFFFFF;font-size:24px;font-weight:700;">CAMPAÑA EXITOSA</h2>
-<p style="margin:6px 0 0 0;color:#E8F5E9;font-size:15px;line-height:1.5;">Costo por conversación 37% por debajo del benchmark. Alcance superior a 1.4M con frecuencia óptima. CPM competitivo para sector hotelero.</p>
-</div>
-</div>
-</div>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-bottom:24px;">
-
-<div style="background:#FFFFFF;border-radius:12px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,0.08);border-left:4px solid #1877F2;">
-<div style="color:#65676B;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">Alcance Total</div>
-<div style="font-size:36px;font-weight:700;color:#1C1E21;margin-bottom:4px;">1.43M</div>
-<div style="display:flex;align-items:center;gap:6px;margin-top:8px;">
-<svg width="20" height="20" viewBox="0 0 20 20">
-<path d="M10 2L12 8L18 8L13 12L15 18L10 14L5 18L7 12L2 8L8 8Z" fill="#42B72A"/>
+<div class="kpi-card">
+<div class="kpi-label">CONVERSACIONES</div>
+<div class="kpi-value">5.032</div>
+<div class="kpi-subtitle">$1.584 costo por conversacion</div>
+<svg width="100%" height="8" style="margin-top:12px">
+<rect width="100%" height="8" fill="#E4E6EB" rx="4"/>
+<rect width="92%" height="8" fill="#42B72A" rx="4"/>
 </svg>
-<span style="color:#42B72A;font-size:14px;font-weight:600;">Frecuencia 1.35 óptima</span>
+</div>
+<div class="kpi-card">
+<div class="kpi-label">FRECUENCIA</div>
+<div class="kpi-value">1.35</div>
+<div class="kpi-subtitle">Impactos por persona</div>
+<svg width="100%" height="8" style="margin-top:12px">
+<rect width="100%" height="8" fill="#E4E6EB" rx="4"/>
+<rect width="67%" height="8" fill="#1877F2" rx="4"/>
+</svg>
 </div>
 </div>
 
-<div style="background:#FFFFFF;border-radius:12px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,0.08);border-left:4px solid #42B72A;">
-<div style="color:#65676B;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">Conversaciones</div>
-<div style="font-size:36px;font-weight:700;color:#1C1E21;margin-bottom:4px;">5,032</div>
-<div style="color:#42B72A;font-size:14px;font-weight:600;margin-top:8px;">$1,584 c/u | -37% vs benchmark</div>
-</div>
-
-<div style="background:#FFFFFF;border-radius:12px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,0.08);border-left:4px solid #1877F2;">
-<div style="color:#65676B;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">CPM Promedio</div>
-<div style="font-size:36px;font-weight:700;color:#1C1E21;margin-bottom:4px;">$4,146</div>
-<div style="color:#42B72A;font-size:14px;font-weight:600;margin-top:8px;">Competitivo sector turismo</div>
-</div>
-
-<div style="background:#FFFFFF;border-radius:12px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,0.08);border-left:4px solid #FF6B35;">
-<div style="color:#65676B;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">Inversión Total</div>
-<div style="font-size:36px;font-weight:700;color:#1C1E21;margin-bottom:4px;">$7.97M</div>
-<div style="color:#65676B;font-size:14px;font-weight:600;margin-top:8px;">$59,924 diarios promedio</div>
-</div>
-
-</div>
-
-<div style="background:#FFFFFF;border-radius:12px;padding:24px;margin-bottom:24px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
-<h3 style="margin:0 0 20px 0;color:#1C1E21;font-size:20px;font-weight:700;">Inversión vs Benchmarks Sector Hotelero</h3>
-<table style="width:100%;border-collapse:collapse;">
-<thead>
-<tr style="border-bottom:2px solid #E4E6EB;">
-<th style="text-align:left;padding:12px 8px;color:#65676B;font-size:13px;font-weight:600;text-transform:uppercase;">Métrica</th>
-<th style="text-align:right;padding:12px 8px;color:#65676B;font-size:13px;font-weight:600;text-transform:uppercase;">Tu Campaña</th>
-<th style="text-align:right;padding:12px 8px;color:#65676B;font-size:13px;font-weight:600;text-transform:uppercase;">Benchmark</th>
-<th style="text-align:center;padding:12px 8px;color:#65676B;font-size:13px;font-weight:600;text-transform:uppercase;">Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr style="border-bottom:1px solid #E4E6EB;">
-<td style="padding:16px 8px;font-weight:600;color:#1C1E21;">CPM</td>
-<td style="padding:16px 8px;text-align:right;font-weight:700;color:#1C1E21;">$4,146</td>
-<td style="padding:16px 8px;text-align:right;color:#65676B;">$4,500 - $6,500</td>
-<td style="padding:16px 8px;text-align:center;"><span style="background:#42B72A;color:#FFFFFF;padding:4px 12px;border-radius:12px;font-size:12px;font-weight:700;">EXCELENTE</span></td>
-</tr>
-<tr style="border-bottom:1px solid #E4E6EB;">
-<td style="padding:16px 8px;font-weight:600;color:#1C1E21;">Costo Conversación</td>
-<td style="padding:16px 8px;text-align:right;font-weight:700;color:#1C1E21;">$1,584</td>
-<td style="padding:16px 8px;text-align:right;color:#65676B;">$2,500 - $3,000</td>
-<td style="padding:16px 8px;text-align:center;"><span style="background:#42B72A;color:#FFFFFF;padding:4px 12px;border-radius:12px;font-size:12px;font-weight:700;">EXCELENTE</span></td>
-</tr>
-<tr style="border-bottom:1px solid #E4E6EB;">
-<td style="padding:16px 8px;font-weight:600;color:#1C1E21;">Costo Interacción</td>
-<td style="padding:16px 8px;text-align:right;font-weight:700;color:#1C1E21;">$37</td>
-<td style="padding:16px 8px;text-align:right;color:#65676B;">$45 - $65</td>
-<td style="padding:16px 8px;text-align:center;"><span style="background:#42B72A;color:#FFFFFF;padding:4px 12px;border-radius:12px;font-size:12px;font-weight:700;">SUPERIOR</span></td>
+<div class="section">
+<h2 class="section-title">Inversion y Benchmarks Sector Hotelero</h2>
+<table>
+<tr>
+<th>Metrica</th>
+<th>Tu Hotel</th>
+<th>Benchmark Sector</th>
+<th>Estado</th>
 </tr>
 <tr>
-<td style="padding:16px 8px;font-weight:600;color:#1C1E21;">Frecuencia</td>
-<td style="padding:16px 8px;text-align:right;font-weight:700;color:#1C1E21;">1.35</td>
-<td style="padding:16px 8px;text-align:right;color:#65676B;">1.20 - 1.80</td>
-<td style="padding:16px 8px;text-align:center;"><span style="background:#42B72A;color:#FFFFFF;padding:4px 12px;border-radius:12px;font-size:12px;font-weight:700;">ÓPTIMO</span></td>
+<td>CPM (Costo por mil impresiones)</td>
+<td>$4.146</td>
+<td>$4.500 - $6.500</td>
+<td class="benchmark">Excelente</td>
 </tr>
-</tbody>
+<tr>
+<td>Costo por interaccion</td>
+<td>$37</td>
+<td>$45 - $80</td>
+<td class="benchmark">Excelente</td>
+</tr>
+<tr>
+<td>Costo por conversacion</td>
+<td>$1.584</td>
+<td>$2.500 - $3.500</td>
+<td class="benchmark">Sobresaliente</td>
+</tr>
+<tr>
+<td>Inversion diaria</td>
+<td>$59.924</td>
+<td>$40.000 - $100.000</td>
+<td class="benchmark">Optimo</td>
+</tr>
+<tr>
+<td>Frecuencia</td>
+<td>1.35</td>
+<td>1.2 - 2.0</td>
+<td class="benchmark">Ideal</td>
+</tr>
 </table>
 </div>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:24px;margin-bottom:24px;">
-
-<div style="background:#FFFFFF;border-radius:12px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
-<h3 style="margin:0 0 20px 0;color:#1C1E21;font-size:20px;font-weight:700;">Alcance y Engagement</h3>
-<div style="margin-bottom:16px;">
-<div style="display:flex;justify-content:space-between;margin-bottom:6px;">
-<span style="color:#65676B;font-size:14px;font-weight:600;">Impresiones</span>
-<span style="color:#1C1E21;font-size:16px;font-weight:700;">1,922,419</span>
-</div>
-<div style="background:#E4E6EB;height:8px;border-radius:4px;overflow:hidden;">
-<div style="background:#1877F2;height:100%;width:100%;border-radius:4px;"></div>
-</div>
-</div>
-<div style="margin-bottom:16px;">
-<div style="display:flex;justify-content:space-between;margin-bottom:6px;">
-<span style="color:#65676B;font-size:14px;font-weight:600;">Alcance Único</span>
-<span style="color:#1C1E21;font-size:16px;font-weight:700;">1,427,893</span>
-</div>
-<div style="background:#E4E6EB;height:8px;border-radius:4px;overflow:hidden;">
-<div style="background:#42B72A;height:100%;width:74.3%;border-radius:4px;"></div>
-</div>
-</div>
-<div style="margin-bottom:16px;">
-<div style="display:flex;justify-content:space-between;margin-bottom:6px;">
-<span style="color:#65676B;font-size:14px;font-weight:600;">Interacciones</span>
-<span style="color:#1C1E21;font-size:16px;font-weight:700;">215,255</span>
-</div>
-<div style="background:#E4E6EB;height:8px;border-radius:4px;overflow:hidden;">
-<div style="background:#FF6B35;height:100%;width:15.1%;border-radius:4px;"></div>
-</div>
-</div>
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid #E4E6EB;">
+<div class="section">
+<h2 class="section-title">Alcance y Engagement</h2>
+<div class="grid-kpi" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
 <div>
-<div style="color:#65676B;font-size:12px;font-weight:600;margin-bottom:4px;">Reacciones</div>
-<div style="color:#1C1E21;font-size:18px;font-weight:700;">5,303</div>
+<div class="kpi-label">IMPRESIONES</div>
+<div class="kpi-value" style="font-size:28px">1.922.419</div>
 </div>
 <div>
-<div style="color:#65676B;font-size:12px;font-weight:600;margin-bottom:4px;">Comentarios</div>
-<div style="color:#1C1E21;font-size:18px;font-weight:700;">245</div>
+<div class="kpi-label">INTERACCIONES</div>
+<div class="kpi-value" style="font-size:28px">215.255</div>
 </div>
 <div>
-<div style="color:#65676B;font-size:12px;font-weight:600;margin-bottom:4px;">Guardados</div>
-<div style="color:#1C1E21;font-size:18px;font-weight:700;">344</div>
+<div class="kpi-label">REACCIONES</div>
+<div class="kpi-value" style="font-size:28px">5.303</div>
 </div>
 <div>
-<div style="color:#65676B;font-size:12px;font-weight:600;margin-bottom:4px;">Vistas Video</div>
-<div style="color:#1C1E21;font-size:18px;font-weight:700;">175,587</div>
+<div class="kpi-label">COMENTARIOS</div>
+<div class="kpi-value" style="font-size:28px">245</div>
+</div>
+<div>
+<div class="kpi-label">GUARDADOS</div>
+<div class="kpi-value" style="font-size:28px">344</div>
+</div>
+<div>
+<div class="kpi-label">VISTAS VIDEO</div>
+<div class="kpi-value" style="font-size:28px">175.587</div>
 </div>
 </div>
 </div>
 
-<div style="background:#FFFFFF;border-radius:12px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
-<h3 style="margin:0 0 20px 0;color:#1C1E21;font-size:20px;font-weight:700;">Retención de Video</h3>
-<svg width="100%" height="280" viewBox="0 0 400 280" style="display:block;">
-<text x="10" y="25" fill="#65676B" font-size="13" font-weight="600">25%</text>
-<rect x="60" y="10" width="262" height="32" rx="4" fill="#1877F2"/>
-<text x="330" y="32" fill="#1C1E21" font-size="15" font-weight="700">32.6%</text>
-
-<text x="10" y="77" fill="#65676B" font-size="13" font-weight="600">50%</text>
-<rect x="60" y="62" width="152" height="32" rx="4" fill="#1877F2"/>
-<text x="220" y="84" fill="#1C1E21" font-size="15" font-weight="700">19.0%</text>
-
-<text x="10" y="129" fill="#65676B" font-size="13" font-weight="600">75%</text>
-<rect x="60" y="114" width="106" height="32" rx="4" fill="#42B72A"/>
-<text x="174" y="136" fill="#1C1E21" font-size="15" font-weight="700">13.2%</text>
-
-<text x="10" y="181" fill="#65676B" font-size="13" font-weight="600">95%</text>
-<rect x="60" y="166" width="71" height="32" rx="4" fill="#42B72A"/>
-<text x="139" y="188" fill="#1C1E21" font-size="15" font-weight="700">8.9%</text>
-
-<text x="4" y="233" fill="#65676B" font-size="13" font-weight="600">100%</text>
-<rect x="60" y="218" width="61" height="32" rx="4" fill="#FF6B35"/>
-<text x="129" y="240" fill="#1C1E21" font-size="15" font-weight="700">7.6%</text>
-
-<line x1="0" y1="268" x2="400" y2="268" stroke="#E4E6EB" stroke-width="1"/>
-<text x="200" y="262" fill="#42B72A" font-size="12" font-weight="600" text-anchor="middle">Retención superior al promedio industria (25% a mitad)</text>
+<div class="section">
+<h2 class="section-title">Retencion de Video - 175.587 vistas</h2>
+<p style="color:#65676B;margin-bottom:20px">Porcentaje de audiencia que mantiene atencion en cada punto del video</p>
+<div style="margin:30px 0">
+<svg width="100%" height="300" viewBox="0 0 800 300">
+<line x1="120" y1="20" x2="120" y2="260" stroke="#E4E6EB" stroke-width="2"/>
+<line x1="120" y1="260" x2="780" y2="260" stroke="#E4E6EB" stroke-width="2"/>
+<text x="60" y="265" font-size="13" fill="#65676B">0%</text>
+<text x="50" y="180" font-size="13" fill="#65676B">20%</text>
+<text x="50" y="95" font-size="13" fill="#65676B">40%</text>
+<rect x="140" y="168" width="110" height="92" fill="#1877F2" rx="4"/>
+<text x="195" y="225" font-size="16" fill="white" font-weight="600" text-anchor="middle">32.6%</text>
+<text x="195" y="245" font-size="13" fill="white" text-anchor="middle">25%</text>
+<rect x="270" y="213" width="110" height="47" fill="#1877F2" rx="4"/>
+<text x="325" y="242" font-size="16" fill="white" font-weight="600" text-anchor="middle">19.0%</text>
+<text x="325" y="258" font-size="13" fill="white" text-anchor="middle">50%</text>
+<rect x="400" y="230" width="110" height="30" fill="#FF6B35" rx="4"/>
+<text x="455" y="250" font-size="16" fill="white" font-weight="600" text-anchor="middle">13.2%</text>
+<text x="455" y="278" font-size="13" fill="#1C1E21" text-anchor="middle">75%</text>
+<rect x="530" y="240" width="110" height="20" fill="#FF6B35" rx="4"/>
+<text x="585" y="255" font-size="16" fill="white" font-weight="600" text-anchor="middle">8.9%</text>
+<text x="585" y="278" font-size="13" fill="#1C1E21" text-anchor="middle">95%</text>
+<rect x="660" y="243" width="110" height="17" fill="#FF6B35" rx="4"/>
+<text x="715" y="256" font-size="16" fill="white" font-weight="600" text-anchor="middle">7.6%</text>
+<text x="715" y="278" font-size="13" fill="#1C1E21" text-anchor="middle">100%</text>
 </svg>
 </div>
-
+<p style="color:#65676B;font-size:14px">Retencion fuerte en primer cuarto del video. Caida significativa despues del 50%. Optimizar hook inicial y ritmo narrativo post-medio tiempo.</p>
 </div>
 
-<div style="background:#FFFFFF;border-radius:12px;padding:24px;margin-bottom:24px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
-<h3 style="margin:0 0 20px 0;color:#1C1E21;font-size:20px;font-weight:700;">Variabilidad de Rendimiento Diario</h3>
-<div style="display:flex;align-items:center;gap:24px;margin-bottom:16px;">
-<div style="flex:1;">
-<svg width="100%" height="160" viewBox="0 0 500 160" style="display:block;">
-<rect x="0" y="20" width="100%" height="1" fill="#E4E6EB"/>
-<rect x="0" y="60" width="100%" height="1" fill="#E4E6EB"/>
-<rect x="0" y="100" width="100%" height="1" fill="#E4E6EB"/>
-<rect x="0" y="140" width="100%" height="1" fill="#E4E6EB"/>
-
-<text x="0" y="15" fill="#65676B" font-size="11">$6,000</text>
-<text x="0" y="55" fill="#65676B" font-size="11">$4,000</text>
-<text x="0" y="95" fill="#65676B" font-size="11">$2,000</text>
-<text x="0" y="135" fill="#65676B" font-size="11">$0</text>
-
-<rect x="80" y="138" width="80" height="2" rx="1" fill="#42B72A"/>
-<text x="120" y="155" fill="#42B72A" font-size="11" font-weight="700" text-anchor="middle">Mejor</text>
-
-<rect x="240" y="78" width="80" height="62" rx="2" fill="#1877F2" opacity="0.6"/>
-<text x="280" y="155" fill="#1877F2" font-size="11" font-weight="700" text-anchor="middle">Promedio</text>
-
-<rect x="400" y="16" width="80" height="124" rx="2" fill="#FF6B35"/>
-<text x="440" y="155" fill="#FF6B35" font-size="11" font-weight="700" text-anchor="middle">Peor</text>
+<div class="section">
+<h2 class="section-title">Variabilidad de Rendimiento Diario</h2>
+<p style="color:#65676B;margin-bottom:20px">Comparativa entre mejor y peor dia de la campana</p>
+<div style="margin:30px 0">
+<svg width="100%" height="200" viewBox="0 0 800 200">
+<text x="20" y="50" font-size="15" fill="#1C1E21" font-weight="600">Mejor dia: 14 Mayo 2026</text>
+<rect x="250" y="30" width="40" height="35" fill="#42B72A" rx="4"/>
+<text x="305" y="52" font-size="18" fill="#1C1E21" font-weight="700">$244</text>
+<text x="370" y="52" font-size="14" fill="#65676B">Costo por conversacion</text>
+<rect x="580" y="35" width="180" height="25" fill="#E7F3FF" rx="4"/>
+<text x="670" y="52" font-size="13" fill="#1877F2" font-weight="600" text-anchor="middle">REPLICAR</text>
+<text x="20" y="130" font-size="15" fill="#1C1E21" font-weight="600">Peor dia: 5 Mayo 2026</text>
+<rect x="250" y="110" width="380" height="35" fill="#FF6B35" rx="4"/>
+<text x="305" y="132" font-size="18" fill="white" font-weight="700">$5.326</text>
+<text x="420" y="132" font-size="14" fill="white">21.8x mas costoso</text>
+<rect x="580" y="115" width="180" height="25" fill="#FFF3F0" rx="4"/>
+<text x="670" y="132" font-size="13" fill="#FF6B35" font-weight="600" text-anchor="middle">PAUSAR CONFIG</text>
 </svg>
 </div>
-<div style="flex:0 0 200px;">
-<div style="background:#E8F5E9;border-left:4px solid #42B72A;padding:12px;border-radius:4px;margin-bottom:12px;">
-<div style="color:#65676B;font-size:12px;font-weight:600;margin-bottom:4px;">MEJOR DÍA</div>
-<div style="color:#1C1E21;font-size:20px;font-weight:700;">$244</div>
-<div style="color:#65676B;font-size:11px;margin-top:4px;">14 Mayo 2026</div>
+<p style="color:#65676B;font-size:14px">Diferencia extrema de 2.083% entre mejor y peor dia indica configuraciones o audiencias especificas con rendimiento superior. Analizar segmentos, creatividades y horarios del 14 de mayo para escalar.</p>
 </div>
-<div style="background:#FFE8E1;border-left:4px solid #FF6B35;padding:12px;border-radius:4px;">
-<div style="color:#65676B;font-size:12px;font-weight:600;margin-bottom:4px;">PEOR DÍA</div>
-<div style="color:#1C1E21;font-size:20px;font-weight:700;">$5,326</div>
-<div style="color:#65676B;font-size:11px;margin-top:4px;">05 Mayo 2026</div>
+
+<div class="section">
+<h2 class="section-title">Recomendaciones Estrategicas</h2>
+<div class="recomendacion">
+<span class="prioridad">PRIORIDAD ALTA</span>
+<div style="font-weight:600;margin:8px 0">Escalar inversion en configuraciones ganadoras</div>
+<p style="margin:5px 0;color:#65676B;font-size:14px">Aumentar presupuesto 40% en conjuntos de anuncios que generaron costo conversacion menor a $500 como el 14 de mayo. Duplicar audiencias similares a ese segmento ganador.</p>
 </div>
+<div class="recomendacion">
+<span class="prioridad">PRIORIDAD ALTA</span>
+<div style="font-weight:600;margin:8px 0">Implementar campana remarketing video</div>
+<p style="margin:5px 0;color:#65676B;font-size:14px">Crear audiencia personalizada con las 175.587 personas que vieron videos. Segmentar por retencion: mayores 50% para oferta directa, 25-50% para contenido medio embudo. Presupuesto sugerido $30.000 diarios.</p>
 </div>
+<div class="recomendacion">
+<span class="prioridad">PRIORIDAD MEDIA</span>
+<div style="font-weight:600;margin:8px 0">Optimizar retencion post 50% en videos</div>
+<p style="margin:5px 0;color:#65676B;font-size:14px">Reducir duracion de videos a 30-40 segundos o fortalecer segundo gancho en marca 15 segundos. Testear formato carrusel mostrando habitaciones, amenidades y ubicacion en primeros 3 slides. La caida de 32.6% a 19% es corregible.</p>
 </div>
-<div style="background:#FFF3E0;border-left:4px solid #FF6B35;padding:16px;border-radius:4px;">
-<div style="color:#E65100;font-size:14px;font-weight:700;margin-bottom:4px;">ALERTA: Variabilidad extrema detectada</div>
-<div style="color:#65676B;font-size:13px;line-height:1.5;">Diferencia de 2,083% entre mejor y peor día indica falta de estabilidad presupuestaria. Requiere optimización de puja y distribución horaria.</div>
+<div class="recomendacion">
+<span class="prioridad">PRIORIDAD MEDIA</span>
+<div style="font-weight:600;margin:8px 0">Pausar o ajustar configuraciones de bajo rendimiento</div>
+<p style="margin:5px 0;color:#65676B;font-size:14px">Identificar anuncios, audiencias u horarios responsables de dias como 5 de mayo con costo $5.326. Pausar si representan mas de 15% del presupuesto. Reasignar recursos a winners.</p>
+</div>
+<div class="recomendacion">
+<span class="prioridad">PRIORIDAD BAJA</span>
+<div style="font-weight:600;margin:8px 0">Activar contenido generado por huespedes</div>
+<p style="margin:5px 0;color:#65676B;font-size:14px">Los 344 guardados y 5.303 reacciones indican interes genuino. Solicitar testimonios video a huespedes satisfechos para usar como creatividades. El contenido autentico reduce costo interaccion 25-40% en hoteleria.</p>
 </div>
 </div>
 
-<div style="background:#FFFFFF;border-radius:12px;padding:24px;margin-bottom:24px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
-<h3 style="margin:0 0 20px 0;color:#1C1E21;font-size:20px;font-weight:700;">Recomendaciones Priorizadas</h3>
-
-<div style="display:flex;gap:16px;margin-bottom:16px;padding:16px;background:#E3F2FD;border-radius:8px;border-left:4px solid #1877F2;">
-<div style="background:#1877F2;color:#FFFFFF;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;flex-shrink:0;">1</div>
-<div style="flex:1;">
-<div style="color:#1C1E21;font-size:15px;font-weight:700;margin-bottom:6px;">PRIORIDAD ALTA: Estabilizar presupuesto diario</div>
-<div style="color:#424242;font-size:14px;line-height:1.5;">Implementar control de puja con límites de gasto diario entre $45,000-75,000 para evitar picos. Configurar reglas automatizadas en Ads Manager.</div>
+<div class="section">
+<h2 class="section-title">Proximos Pasos</h2>
+<div class="accion">
+<div style="font-weight:600;margin-bottom:8px">1. Analisis granular dia 14 de mayo</div>
+<p style="margin:5px 0;color:#65676B;font-size:14px">Exportar metricas completas del mejor dia: audiencias, creatividades, ubicaciones, dispositivos, horarios. Crear documento comparativo vs peor dia. <span class="plazo">Plazo: 3 dias</span></p>
+</div>
+<div class="accion">
+<div style="font-weight:600;margin-bottom:8px">2. Lanzamiento campana remarketing</div>
+<p style="margin:5px 0;color:#65676B;font-size:14px">Configurar 3 conjuntos: visitantes web ultimos 30 dias, viewers video 50%+, engagement alto con posts. Creatividades especificas para cada temperatura. <span class="plazo">Plazo: 5 dias</span></p>
+</div>
+<div class="accion">
+<div style="font-weight:600;margin-bottom:8px">3. Test creatividades videos cortos</div>
+<p style="margin:5px 0;color:#65676B;font-size:14px">Producir 4 videos 20-30 segundos con ganchos fuertes primeros 3 segundos. Formatos: tour express, oferta limitada, testimonio huesped, experiencia unica local. Testear contra videos actuales. <span class="plazo">Plazo: 7 dias</span></p>
 </div>
 </div>
 
-<div style="display:flex;gap:16px;margin-bottom:16px;padding:16px;background:#E3F2FD;border-radius:8px;border-left:4px solid #1877F2;">
-<div style="background:#1877F2;color:#FFFFFF;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;flex-shrink:0;">2</div>
-<div style="flex:1;">
-<div style="color:#1C1E21;font-size:15px;font-weight:700;margin-bottom:6px;">PRIORIDAD ALTA: Escalar audiencias de conversación</div>
-<div style="color:#424242;font-size:14px;line-height:1.5;">Crear lookalike 1-3% de las 5,032 conversaciones. Asignar 40% del presupuesto mensual a esta audiencia cálida con alto potencial de conversión.</div>
-</div>
 </div>
 
-<div style="display:flex;gap:16px;margin-bottom:16px;padding:16px;background:#E8F5E9;border-radius:8px;border-left:4px solid #42B72A;">
-<div style="background:#42B72A;color:#FFFFFF;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;flex-shrink:0;">3</div>
-<div style="flex:1;">
-<div style="color:#1C1E21;font-size:15px;font-weight:700;margin-bottom:6px;">PRIORIDAD MEDIA: Optimizar creativos para retención completa</div>
-<div style="color:#424242;font-size:14px;line-height:1.5;">Aunque 32.6% a los 25% es excelente, solo 7.6% completa el video. Testear videos de 15 segundos con CTA temprano en segundo 8-10.</div>
-</div>
+<div class="footer">
+<div class="footer-logo">BIGGOW</div>
+<p style="margin:10px 0;opacity:0.9">Inteligencia de marketing basada en datos</p>
+<p style="margin:5px 0;font-size:14px">biggow.com.co</p>
 </div>
 
-<div style="display:flex;gap:16px;padding:16px;background:#E8F5E9;border-radius:8px;border-left:4px solid #42B72A;">
-<div style="background:#42B72A;color:#FFFFFF;width:32px;height:32px;border-radius:50%;
-</div></div></body></html>
+</body>
+</html>
